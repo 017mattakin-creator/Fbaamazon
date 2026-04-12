@@ -19,7 +19,7 @@ export default function Footer({ onToggleAdmin }: { onToggleAdmin: () => void })
             <Mail className="text-accent" /> Email: contact@revboostfba.com
           </p>
           <p className="flex items-center justify-center gap-3">
-            <MessageCircle className="text-emerald-600" /> Whatsapp: +8801831052009
+            <MessageCircle className="text-emerald-600" /> Whatsapp: +1 (613) 4172496
           </p>
         </div>
         <div className="border-t border-slate-200 pt-8 text-slate-500 font-medium text-sm">
