@@ -6,7 +6,7 @@ export default function Footer({ onToggleAdmin }: { onToggleAdmin: () => void })
       <div className="max-w-4xl mx-auto px-6">
         <div className="mb-10">
           <a
-            href="https://wa.me/+447782261548"
+            href="https://wa.me/12017723344"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-accent text-white px-10 py-3 rounded-full text-lg font-bold shadow-lg inline-block hover:bg-sky-600 transition"
@@ -19,7 +19,7 @@ export default function Footer({ onToggleAdmin }: { onToggleAdmin: () => void })
             <Mail className="text-accent" /> Email: contact@revboostfba.com
           </p>
           <p className="flex items-center justify-center gap-3">
-            <MessageCircle className="text-emerald-600" /> Whatsapp: +1 (613) 4172496
+            <MessageCircle className="text-emerald-600" /> Whatsapp: +1 (201) 772-3344
           </p>
         </div>
         <div className="border-t border-slate-200 pt-8 text-slate-500 font-medium text-sm">

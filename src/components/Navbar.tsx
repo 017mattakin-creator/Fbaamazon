@@ -7,7 +7,7 @@ export default function Navbar() {
         fb<span className="text-accent">@</span>.amazon
       </div>
       <a
-        href="https://wa.me/+447782261548"
+        href="https://wa.me/12017723344"
         target="_blank"
         rel="noopener noreferrer"
         className="bg-accent hover:bg-sky-600 text-white px-6 py-2.5 rounded-full font-semibold flex items-center gap-2 transition"
