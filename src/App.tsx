@@ -9,6 +9,7 @@ import Hero from './components/Hero';
 import Features from './components/Features';
 import Workflow from './components/Workflow';
 import Testimonials from './components/Testimonials';
+import ClientStories from './components/ClientStories';
 import FAQ from './components/FAQ';
 import Pricing from './components/Pricing';
 import Footer from './components/Footer';
@@ -26,6 +27,7 @@ export default function App() {
         <Features />
         <Workflow />
         <Testimonials />
+        <ClientStories />
         <FAQ />
         <Pricing />
         <Footer onToggleAdmin={() => setShowAdmin(!showAdmin)} />
