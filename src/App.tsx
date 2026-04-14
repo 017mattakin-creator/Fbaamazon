@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Features from './components/Features';
@@ -18,6 +18,25 @@ import { LanguageProvider } from './context/LanguageContext';
 
 export default function App() {
   const [showAdmin, setShowAdmin] = useState(false);
+
+  useEffect(() => {
+    // রাইট-ক্লিক বন্ধ করা
+    const handleContextMenu = (e: MouseEvent) => e.preventDefault();
+    document.addEventListener('contextmenu', handleContextMenu);
+
+    // ইমেজ ড্র্যাগ করা বন্ধ করা
+    const handleDragStart = (e: DragEvent) => {
+      if (e.target instanceof HTMLImageElement) {
+        e.preventDefault();
+      }
+    };
+    document.addEventListener('dragstart', handleDragStart);
+
+    return () => {
+      document.removeEventListener('contextmenu', handleContextMenu);
+      document.removeEventListener('dragstart', handleDragStart);
+    };
+  }, []);
 
   return (
     <LanguageProvider>
