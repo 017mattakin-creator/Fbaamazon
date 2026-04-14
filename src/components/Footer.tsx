@@ -19,10 +19,10 @@ export default function Footer({ onToggleAdmin }: { onToggleAdmin: () => void })
         </div>
         <div className="flex flex-col gap-3 mb-10 text-slate-600 font-medium">
           <p className="flex items-center justify-center gap-3">
-            <Mail className="text-accent" /> Email: fbaamazooon@gmail.com
+            <Mail className="text-accent" /> Email: <a href="mailto:fbaamazooon@gmail.com" className="hover:text-accent transition">fbaamazooon@gmail.com</a>
           </p>
           <p className="flex items-center justify-center gap-3">
-            <MessageCircle className="text-emerald-600" /> Whatsapp: +1 (201) 772-3344
+            <MessageCircle className="text-emerald-600" /> Whatsapp: <a href="https://wa.me/12017723344" target="_blank" rel="noopener noreferrer" className="hover:text-emerald-600 transition">+1 (201) 772-3344</a>
           </p>
         </div>
         <div className="border-t border-slate-200 pt-8 text-slate-500 font-medium text-sm">
