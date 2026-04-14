@@ -19,7 +19,7 @@ export default function Footer({ onToggleAdmin }: { onToggleAdmin: () => void })
         </div>
         <div className="flex flex-col gap-3 mb-10 text-slate-600 font-medium">
           <p className="flex items-center justify-center gap-3">
-            <Mail className="text-accent" /> Email: contact@revboostfba.com
+            <Mail className="text-accent" /> Email: contact@fbaamazooon@gmail.com
           </p>
           <p className="flex items-center justify-center gap-3">
             <MessageCircle className="text-emerald-600" /> Whatsapp: +1 (201) 772-3344
